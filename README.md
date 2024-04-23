@@ -14,15 +14,15 @@ Markdownは、簡単な記法を使って書式付きの文書を作成するこ
 Webエンジニアやwebデザイナーなどのコンテンツクリエーターは、Markdownで文書を作成することがあります。
 
 MarkdownとHTMLそれぞれのファイルのイメージは、下記リンクから確認することができます。
-- [Markdown](https://github.com/Aki158/Markdown-to-HTML-Converter/blob/main/sample.md)
-- [HTML](https://github.com/Aki158/Markdown-to-HTML-Converter/blob/main/index.html)
+- [Markdown](https://github.com/teraz1112/Markdown-to-HTML-Converter/blob/main/sample.md)
+- [HTML](https://github.com/teraz1112/Markdown-to-HTML-Converter/blob/main/index.html)
 
 
 ## インストール
 
 1. リポジトリをクローンする
 ```
-git clone https://github.com/Aki158/Markdown-to-HTML-Converter.git
+git clone https://github.com/teraz1112/Markdown-to-HTML-Converter.git
 ```
 
 2. クローンしたリポジトリへ移動する
