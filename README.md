@@ -31,23 +31,25 @@ cd Markdown-to-HTML-Converter
 ```
 
 ## 開発環境の構築
+### markdown
 
-開発環境を Docker を使用して立ち上げることが可能。以下、その手順。
+markdownは、MarkdownをHTMLへ変換する機能を提供しているPythonのパッケージです。
 
-1. 上記**インストール**を行う
+pipを使用して、下記手順でインストールしてください。
 
-2. Docker ビルド
-   　以下を実行してビルド。なお、以下は Docker がインストール済みであることを前提とする
-
+1. markdownがインストールされているか確認する。
 ```
-docker compose build
+pip3 show markdown
 ```
 
-3. Docker 立ち上げ
-   　以下を実行してコンテナを立ち上げ。
-
+2. markdownをインストールする
 ```
-docker compose up -d
+pip3 install markdown
+```
+
+3. markdownがインストールされたことを確認する。<br>Name/Version/Summaryなどが表示されていれば、markdownのインストールは完了です!
+```
+pip3 show markdown
 ```
 
 ## 使用方法
